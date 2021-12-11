@@ -163,6 +163,10 @@ input:focus {
   background: #ff6a95;
 }
 
+.edit-btn {
+  background-color: #029e6a;
+}
+
 .btn:hover {
   transform: scale(0.98);
   opacity: 0.9;
