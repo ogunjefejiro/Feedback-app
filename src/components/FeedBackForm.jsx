@@ -40,8 +40,8 @@ const FeedBackForm = () => {
         e.preventDefault()
         if (text.trim().length > 10) {
             const newFeedback = {
-                text, 
-                rating
+                rating, 
+                text
             }
             
             if (feedbackEdit.edit) {
