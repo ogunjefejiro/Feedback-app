@@ -213,6 +213,12 @@ input:focus {
   margin: 10px 0;
 }
 
+.spinner {
+  display: block;
+  width: 60px;
+  margin: 2em auto;
+}
+
 @media (max-width: 600px) {
   .rating li {
     margin: 10px 3px;
