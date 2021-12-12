@@ -4,6 +4,14 @@
       "rating": 10,
       "text": "This is an edited post my guys ohhhhhh",
       "id": 1
+<<<<<<< HEAD
+=======
+    },
+    {
+      "rating": 5,
+      "text": "How far na bro",
+      "id": 2
+>>>>>>> API-Requests
     }
   ]
 }
