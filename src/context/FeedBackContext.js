@@ -5,23 +5,7 @@ const FeedBackContext = createContext()
 
 export const FeedBackProvider = ({children}) => {
 
-    const [feedback, setFeedback] = useState([
-        {
-        id: 1,
-        rating: 10,
-        text: 'This item is feedback item 1'
-        },
-        {
-        id: 2,
-        rating:8,
-        text: 'This item is feedback item 2'
-        },
-        {
-        id: 3,
-        rating: 9,
-        text: 'This item is feedback item 3'
-        }
-    ])
+    const [feedback, setFeedback] = useState([])
 
     const [feedbackEdit, setFeedbackEdit] = useState({
       item: {},
